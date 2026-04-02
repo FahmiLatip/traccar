@@ -1,12 +1,6 @@
 name: Build Release
 
-on:
-  workflow_dispatch:
-    inputs:
-      version:
-        description: Version
-        required: true
-        default: preview
+on: []
 
 jobs:
   build:
